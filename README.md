@@ -48,3 +48,25 @@ const char *HOST = "localhost";
 const char *USER = "root";
 const char *PW = "password123";
 const char *DB = "temp";
+
+## How to Use
+1. Clone the repository to your local machine:
+    ```sh
+    git clone https://github.com/yourusername/airline-management-system.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd airline-management-system
+    ```
+3. Compile the C++ code:
+    ```sh
+    g++ main.cpp -o airline_system
+    ```
+4. Set up the MySQL database using the provided SQL script:
+    ```sh
+    mysql -u username -p < setup.sql
+    ```
+5. Run the application:
+    ```sh
+    ./airline_system
+    ```
