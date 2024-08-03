@@ -8,6 +8,8 @@ A basic airline management system created using C++ and MySQL. This project demo
 - Allows users to book flights if seats are available.
 - Automatically updates the number of available seats in the database.
 
+## Demo Video
+![Airline Management System](https://img.youtube.com/vi/fcIW9n6Ijok.jpg)](https://youtu.be/fcIW9n6Ijok)
 ## Database
 
 The database contains a table named `Airline` with the following columns:
@@ -48,6 +50,7 @@ const char *HOST = "localhost";
 const char *USER = "root";
 const char *PW = "password123";
 const char *DB = "temp";
+```
 
 ## How to Use
 1. Clone the repository to your local machine:
